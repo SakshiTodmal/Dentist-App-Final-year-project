@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".IntroductionPage"
+    android:background="@drawable/intro_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="602dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="WELCOME TO"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/create_account_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="70dp"-->
+<!--        android:layout_marginTop="563dp"-->
+<!--        android:layout_marginEnd="59dp"-->
+<!--        android:layout_marginBottom="117dp"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingHorizontal="50sp"-->
+<!--        android:text="Create Account"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="115dp"
+        android:gravity="center"
+        android:text="Create Account"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="624dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="Already have account? Log in"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
